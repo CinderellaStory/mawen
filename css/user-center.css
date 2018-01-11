@@ -1,0 +1,22 @@
+.content{    min-height: 759px; margin-top: 0; }
+.u-c-banner{ background: #33B861; width: 100%;   }
+.u-c-banner h1{  text-align: center; margin: 0 auto;height: 160px; background: url(https://iknowpc.bdimg.com/static/usercenter/widget/css/img/banner.4e90047.png) center center; width: 1200px; }
+
+.uc-logo{ position: absolute;top: 180px; left: 50%;    margin-left: -60px; }
+
+.uc-name{ margin-top: 80px;    font-size: 26px; color: #333; }
+.usercenter{text-align: left; margin-top: 80px;    overflow: hidden; }
+
+.us-navbar{width: 800px;}
+.navbar-tab{ border-bottom: 1px solid #e8ecee; padding-bottom: 40px; }
+.navbar-tab .menu-tab{ float: left; color: #333; font-size: 20px; margin-right: 30px; cursor: pointer;  }
+.navbar-tab .menu-tab:hover{ color: #43cc69; border-bottom: 2px solid #43cc69;padding-bottom:5px; }
+.navbar-tab div.active{ color: #43cc69; border-bottom: 2px solid #43cc69;padding-bottom:5px;}
+
+.navbar-list ul li{ padding: 25px 10px;border-bottom: 1px solid #e8ecee; }
+.navbar-list ul li:hover{ background: #F4FEF6; }
+.navbar-list .title{ font-size: 18px;font-weight: 700; line-height: 2.5; color: #333; }
+.navbar-list p{ font-size: 13px; line-height: 24px;}
+.meta{ margin-top: 20px; }
+.meta a{ color: #666; margin-right: 20px; }
+

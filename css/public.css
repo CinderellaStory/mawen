@@ -1,0 +1,46 @@
+/*登录&注册&忘记密码 公共css*/
+.warp .logo{text-align: left;padding: 80px; }
+.box{ width: 340px; background: #fff; padding: 30px 30px 40px;    box-shadow: 0 0 8px rgba(0,0,0,.1);}
+.sign{ height: 30px; line-height: 30px; }
+.login-text{ font-size: 18px; color: #ea6f5a;font-weight: bold; }
+.register-text a{ color: #FE7300; }
+.container{ width: 282px; text-align: center; margin: 0 auto; }
+.container label.text{ color: #666; width: 50px;display: inline-block; text-align: right; margin-right:10px;}
+.container input[type="text"],.container input[type="password"]{outline: none; width: 270px; padding-left: 10px;height: 40px;border-radius: 3px;border: 1px solid #c3c3c3; }
+
+.more-login{overflow: hidden; margin-top: 10px}
+h6 span{ margin: 0 20px; color: #b5b5b5; font-size: 14px;}
+h6 i{ width: 70px; height: 1px; background: #b5b5b5; vertical-align: middle;    display: inline-block;}
+
+.more-login ul li{ float: left; margin-right: 27px;height: 50px; width: 50px;   line-height: 40px;}
+.more-login ul li:last-child{ margin-right: 0;}
+.more-login ul li a{ padding: 10px;    border-radius: 50%; }
+.more-login ul li a i{ color: #fff; }
+.weibo{ background-color: #e05244; }
+.weixin{ background-color: #00bb29; }
+.qq{ background-color: #498ad5; }
+.other{ background-color: #CCCCCC; }
+
+/*注册css*/
+.code{ border: 1px solid #dce3e8;float: left; margin-left: 20px; }
+.phone span{ display: none; margin-top: 10px; color: red;text-align: left; }
+.agree { color: #666;}
+.agree a{ text-decoration: underline;color: #537c8d;font-size: 14px; margin-left: 15px; }
+.sentcode{  height: 30px;width: 100px; position: absolute; top: 6px; border-radius: 20px;color: #fff;line-height: 32px; right: 5px;}
+.identify{ position: relative; }
+.register .sentcode{ background: #42c02e;}
+.sex{ color: #333; }
+.sex input{ vertical-align: middle; }
+.male{ margin-left: 100px; }
+/*登录css*/
+.btn{height: 40px; width: 100%; border: 0;outline: 0; color: #fff; font-size: 20px;    border-radius: 5px; }
+.remember-text{ color: #666; }
+.forget-text a{ font-size: 14px; color: #C3C3C3; }
+
+/*忘记密码css*/
+.forgotPassword .psd{ position: relative; }
+.forgotPassword .sentcode{ background: #2a8ddd}
+.return a:hover{ color: #FE7300; border-bottom: 1px solid #FE7300; }
+.return,.return a{ color: #40485b;font-size: 15px;}
+.return b{ margin: 0 10px;}
+.return i{margin-right: 8px;}

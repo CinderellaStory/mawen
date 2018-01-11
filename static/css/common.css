@@ -1,0 +1,124 @@
+/*公共CSS*/
+body,html{ height: 100%; width: 100%;font-family: "Microsoft YaHei";}
+*{padding: 0;margin: 0;font-family: "Microsoft YaHei";font-size: 14px;}
+a{ text-decoration: none;font-family: "Microsoft YaHei";font-size: 14px;    color: #D6D7D9; }
+h1,h2,h3,h4,h5,h6{font-family: "Microsoft YaHei";}
+ul{list-style-type: none;}
+img{ vertical-align: middle; }
+img.locus{ border-radius: 50%; }
+
+.fl{float: left;}
+.fr{float: right;}
+.clear{ clear: both; }
+.cursor{ cursor: pointer; }
+.mb20{ margin-bottom: 20px;}
+.overflow{ overflow: hidden; }
+.vertical{ vertical-align: middle ; }
+.mr10{ margin-right: 10px;}
+button,input,textarea{ outline: none;    border: 0; }
+
+.warp{ background: #f8f8f8; height: 100%;min-height: 750px;  }
+.w{ width: 1200px; margin: 0 auto; text-align: center;}
+
+/*导航栏*/
+nav{height: 90px;background: #303643; line-height: 90px;overflow: hidden; }
+/*.navbar{ width: 40%;  }*/
+.navbar{ margin-left: 50px; }
+.navbar ul li{ float: left; margin-right: 50px; }
+.navbar ul li a{ color: #fff; font-size: 16px; }
+.navbar ul li a:hover{ color: #ea6f5a; }
+.search-warp{ line-height: 90px; }
+.askButton{ border-radius: 5px;   padding: 0 14px;border: 1px solid #0f88eb;background: #0f88eb; color: #fff; margin-top: 28px; height: 34px; }
+.search { position: relative;color: #999; }
+.search input{padding-left: 15px;outline: none; height: 34px; border: 1px solid #999; width: 280px;border-radius: 5px; }
+.input_enter_icon{ position: absolute;    right: 10px;    top: 0; }
+
+.login-area a{ color: #fff;  display: inline-block;    text-align: center; }
+.Btn{height: 32px; width: 66px;border-radius: 5px; line-height: 32px; }
+.login-btn{background: #59b0ff;  }
+.login-btn:hover{ background: #1a90ff;}
+.register-btn:hover{background: #32a831;  }
+.register-btn{ background: #5bbf5a; }
+
+
+/*登录后样式*/
+.user-logo,.user-logo img{ border-radius: 50%; width: 46px; height: 46px;}
+.logged-in{ overflow: hidden; }
+.logged-in i{ font-size: 20px; width: 20px; height: 20px; }
+.grade span{ display: inline-block; }
+.number{ font-size: 16px;margin-left: -4px; color: #999; }
+.gold-medal{ color: #ffd622; }
+.silver-medal{ color: #cddbe3; }
+.bronze-medal{ color: #c29174; }
+.setUp i{ color: #787d82; }
+
+.user-center ul{    z-index: 1;text-align: center;top: 68px;  position: absolute;box-shadow: 0 2px 8px #888888; background: #fff; display: none; }
+.user-center ul li{ height: 38px; line-height: 38px;min-width: 130px; }
+.user-center ul li a{ color: #333; font-size: 13px;display: block;  }
+.user-center ul li:hover{ background: #ea6f5a; }
+.user-center ul li:hover a{ color: #fff; }
+
+.notice i{ color: #676c73; }
+.notice{ margin-top: -2px; }
+
+footer{ min-height: 50px; line-height: 30px; background: #0F7693;text-align: center; color: #fff; }
+.copyright{ clear: both; padding-bottom: 20px; text-align: left; }
+.waper{ padding-top: 20px;overflow: hidden; }
+.waper ul li{ float: left;margin-right: 50px;  }
+.waper ul li:last-child{ margin-right: 0; }
+.waper ul li a{ font-size: 16px; color: #fff;}
+
+.center{ width: 1000px; margin: 0 auto;  }
+.content{ min-height: 759px;/*margin-top: 40px;*/ }
+
+
+/*提问&意见反馈 textarea 公共css*/
+.qd-ct {margin: 8px 15px}
+.qbTitle{color: #32a831;font-size: 26px; }
+.qbTitle .icon-tiwen{ font-size: 26px;}
+.qd-content {margin-top: 20px; border: 1px solid #c6d1d9; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px }
+.ques-title textarea {width: 100%;color: #333;font-family: "Microsoft YaHei"; height: 30px; max-height: 78px; min-height: 30px; color: #333;resize: none;outline: 0;border: 0; }
+ textarea::-webkit-input-placeholder{ color: #9eadb6; }
+.ques-title{ position: relative; }
+#title-area{ font-size: 17px }
+.ques-title .count {position: absolute; color: #9eacb6; right: -5px; bottom: 0; font-size: 12px; text-align: right; height: 14px; line-height: 14px }
+.ques-title .count b {font-weight: 400;    font-size: 12px; } 
+
+
+/*首页&搜索 提问 公共css*/
+.main ul li{border-radius: 10px; margin-bottom: 30px;    box-shadow: 0 4px 8px 0 rgba(7,17,27,.05); height: 100px;   padding-top: 30px;}
+.main ul li:hover{    box-shadow: 0 8px 16px 0 rgba(7,17,27,.1); }
+.activity{ margin-top: 10px; }
+.activity dl dd .number{ font-size: 18px; }
+.activity dl dd{ float: left; margin-left: 10px;border: 1px solid transparent;  padding: 5px 20px;    margin-top: 0; }
+.activity dl dd.active{ border: 1px solid #329d78; }
+.activity dl dd p i{ margin-left: -5px; }
+.issue-title{ margin-left: 30px; }
+.issue-title h3{ color: #2d96df;    margin-top: 5px; text-align: left; }
+.issue-title .item{ margin-top: 10px; }
+.item-list a{ background: #e1ecf4; padding: 6px 10px; color: #2d96df;display: inline-block;}
+
+
+/*我关注的分类&全部分类*/
+
+.follow-list{margin-top: 5px; margin-bottom: 30px; }
+.follow-list a{ float: left; border: 1px solid #e2e6e8;margin-top: 5px; margin-left: 6px;padding: 5px 10px; color: #b2b2b1;}
+.follow-list a:hover{color: #fe7300; }
+.list ul li{ margin-top: 30px; }
+.list ul li p{ display: block; }
+.title{ text-align: left; border-bottom: 1px solid #e7eaeb;padding-bottom: 20px;}
+.title span{ font-size: 16px; color: #14191e; }
+.title i{ font-size: 14px;    font-style: normal; color: #9a9ea1;}
+.title i:hover{ color: red; }
+.title span i{ font-size: 24px; }
+.title span i:hover{ color: red; }
+.name{ color: #000; font-weight: bold; text-align: left; margin-left: 10px; }
+
+.aside{ width: 340px;padding-top: 40px;}
+.follow{ width: 50px;height: 25px; line-height: 25px; text-align: center; color: #fe7300; border: 1px solid #e2e6e8; display: inline-block; }
+.item p{ color: #b7c5d6; margin-left: 10px;}
+
+.issue-title{ margin-left: 10px; }
+.issue-title h3{ color: #2d96df;    margin-top: 5px; text-align: left; }
+.issue-title .item{ margin-top: 10px; }
+.item-list a{ background: #e1ecf4; padding: 6px 10px; color: #2d96df;display: inline-block;}

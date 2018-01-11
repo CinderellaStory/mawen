@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>码问-我要提问</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="static/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_449875_zzdcbj1hs07iizfr.css">
+		<link rel="stylesheet" type="text/css" href="css/quiz.css"/>
+	</head>
+	<body>
+		<nav>
+			<div class="w">
+				<div class="logo fl"><a href="index.html"><img src="images/logo.png" width="80px"></a></div>
+				<div class="navbar fl">
+					<ul>
+						<!-- <li><a href="">码问</a></li>
+						<li><a href="">码答</a></li> -->
+						<li><a href="">名人榜</a></li>
+					</ul>
+				</div>
+				<div class="search-warp fl">
+					<div class="search fl mr10">
+						<input type="text" />
+						<i class="iconfont icon-sousuo4 input_enter_icon"></i>
+					</div>
+					<button class="fl askButton mr cursor">我要提问</button>
+				</div>
+				<div class="userInfo fr">
+					<div class="login-area" style="display: none;">
+						<a href="login.html" class="Btn login-btn mr10">登录</a>
+						<a href="register.html" class="Btn register-btn">注册</a>
+					</div>
+					<div class="logged-in">
+						<div class="user-center fl mr10">
+							<div class="user-logo"><img src="http://img4.mukewang.com/57f3cfe40001091204000400-200-200.jpg" width="46" height="46"></div>
+							<ul>
+								<li><a href="user-center.html">我的主页</a></li>
+								<li><a href="">设置</a></li>
+								<li><a href="">退出</a></li>
+							</ul>
+						</div>
+						<div class="grade fl mr10">
+							<span class="gold-medal"><i class="iconfont icon-dian-copy-copy-copy"></i></span><span class="number mr10">1</span>
+							<span class="silver-medal"><i class="iconfont icon-dian-copy-copy-copy"></i></span><span class="number mr10">2</span>
+							<span class="bronze-medal"><i class="iconfont icon-dian-copy-copy-copy"></i></span><span class="number">3</span>
+						</div>
+						<div class="setUp fl mr10">
+							<div class="setUp-icon"><i class="iconfont icon-zifuwuicon-"></i></div>
+						</div>
+						<div class="notice fl">
+							<i class="iconfont icon-xiaoxi"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="w content">
+			<div class="container">
+				<div class="qbTitle">
+					<i class="iconfont  icon-tiwen mr10"></i>提问
+				</div>
+				<form action="" method="">
+					<div class="qd-layout">
+						<div class="qd-content">
+							<div class="ques-title qd-ct">
+								<textarea id="title-area" placeholder="标题：写下你的问题" style="height: 50px;"></textarea>
+								<span id="title-count" class="count"><b>0</b>/49</span>
+							</div>
+						</div>
+						<div class="qd-content qd-content-desc">
+							<div class="ques-title qd-ct">
+								<textarea id="content-area" placeholder="选填，详细说明您的问题，以便获得更好的答案"></textarea>
+							</div>
+							<div class="qd-plus" id="qd-plus-btn">
+								<ul class="qd-plus-stuff clearfix">
+									<li class="add-img webuploader-container" id="add-img-btn">
+										<div class="loader-pick">上传图片</div>
+										<!--<div id="rt_rt_1bt8r07h21su9nar1l8j15r7sho1" style="position: absolute; top: 0px; left: 0px; width: 18px; height: 16px; overflow: hidden; bottom: auto; right: auto;">
+											<input type="file" capture="camera" name="file" class="webuploader-element-invisible" accept="image/*">
+											<label style="opacity: 0; width: 100%; height: 100%; display: block; cursor: pointer; background: rgb(255, 255, 255);"></label>											
+										</div>-->
+									</li>
+								</ul>
+								<ul class="qd-img-list overflow">
+									<li>
+										<img src="http://img.mukewang.com/59edbd1200011c8409360316.jpg" alt="" />
+										<span class="bg"></span><span class="del-btn">删 除</span>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="tag-wrapper">
+							<div class="tag-info">
+								<div class="tag-label fl">标签：</div>
+								<div class="tag-list fl">
+									<span class="tag-item title-tag selected">百度</span>
+									<span class="tag-item title-tag selected">百度知道</span>
+								</div>
+								<div class="add-tag-handler fl">
+									<span class="add-label cursor" onclick="opendialog()">添加标签</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="qd-layout clear qs-area">
+						<ul>
+							<li>
+								<span class="cb-status fl"></span>
+								<div class="remind-tip fl ml10">
+									收到答案到<span class="ml10">133******35</span>
+									<a class="phone-num change-num-btn">修改号码</a>
+								</div>
+								<div class="remind-wealth fl remind-wealth-on">
+									<i class="iconfont icon-lindaoicon_xianjinzhanghu"></i>20
+								</div>
+								<div class="my-wealth fr">
+									我的财富值：<i class="iconfont icon-lindaoicon_xianjinzhanghu"></i>
+									<span class="wealth-num">2675</span>
+								</div>
+							</li>
+							<li class="offer-reward clearfix" data-hide="doctor">
+								<div class="fl rw-lb">
+									<span class="cb-ico cb-status mr10" data-id="reward"></span>答题悬赏
+								</div>
+								<div class="fl award-list">
+									<div class="simulate-select cursor">
+										<i class="iconfont icon-lindaoicon_xianjinzhanghu"></i>
+										<span class="reward-num">10</span>
+										<i class="iconfont icon-xiasanjiao-copy-copy"></i>
+									</div>
+									<ul class="reward-select-list" style="display: none;">
+										<li><i></i>10</li>
+										<li><i></i>20</li>
+										<li><i></i>50</li>
+										<li><i></i>100</li>
+										<li><i></i>200</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="submit-question clear">
+						<button type="button" class="submit-btn" id="submit-btn">提交</button>
+						<div class="ano-opt">
+							<span id="anonymity2" class="cb-status active"></span>
+							<label class="vertical">匿名</label>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<footer>
+			<div class="w">
+				<div class="waper">
+					<ul>
+						<li><a href="contact.html">联系我们</a></li>
+						<li><a href="feedback.html">意见反馈</a></li>
+					</ul>
+				</div>
+				<div class="copyright">Copyright ©　2017　深圳市双骑投资控股有限公司/码问　粤ICP备17106261号-2</div>
+			</div>
+		</footer>
+<!--标签弹窗-->
+	<div class="dialog_bg"></div>
+	<div class="dialog tag-dialog">
+		<div class="dialog-title">
+			<div class="close"><i class="iconfont icon-guanbi2" onclick="closedialog()"></i></div>
+			<div class="titlebar">编辑标签</div>
+		</div>
+		<div class="dialog-container">
+			<h3>当前标签</h3>
+			<div class="selected-search-tag line">
+				<span class="tag-item search-tag selected"><i class="iconfont icon-guanbi3"></i>百度</span>
+				<span class="tag-item search-tag selected"><i class="iconfont icon-guanbi3"></i>百度知道</span>
+			</div>
+			<h3>更多标签</h3>
+			<div class="more-tags">
+				<div class="tag-input"><input type="text" placeholder="在此输入兴趣关键词" class="tag-input-ser"></div>
+			</div>
+			<p class="red-tips">问题标签不能超过三个!</p>
+			<div class="dialog-btn">
+				<a href="javascript:void(0)" class="save-btn">保存</a>
+				<a href="javascript:void(0)" class="cancel-btn" onclick="closedialog()">取消</a>
+			</div>
+		</div>
+	</div>
+	<!--修改手机号码验证弹窗-->
+	<div class="modify-number dialog">
+		<div class="dialog-title">
+			<div class="close"><i class="iconfont icon-guanbi2" onclick="closedialog()"></i></div>
+			<div class="titlebar">安全验证</div>
+		</div>
+		<div class="dialog-container">
+			<div class="content-msg">
+				<p>您的帐号可能存在安全风险，为了确保为您本人操作，请先进行安全验证。</p>
+			</div>
+			<h4>验证方式</h4>
+			<div class="number-phone">
+				<input type="text" placeholder="请输入你的手机号码" />
+			</div>
+			<div class="verify-code overflow">
+				<input type="text" name="" id="" value="" placeholder="短信验证码" />
+				<input type="button" name="" id="" value="发送验证码" />
+			</div>
+			<div class="btn">
+				<button class="surebtn">确定</button>
+			</div>
+		</div>
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+	<script src="static/js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/quiz.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

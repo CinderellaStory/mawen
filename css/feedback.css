@@ -1,0 +1,7 @@
+.bg{ background: url(../images/feedback_bg.png) no-repeat #93caf0;  }
+.container{ width: 600px;padding-bottom: 50px;text-align: left; padding-top: 40px; }
+.qd-content{background: #fff; margin-bottom: 30px; }
+.qd-content input{ height: 25px; }
+.submit-btn{ margin-top: 50px; background: green; width: 150px; border-radius: 5px; height: 38px; line-height: 38px; text-align: center; color: #fff;
+font-size:20px; }
+.other{ margin-top: 50px; font-size: 16px;background: #ea6f5a;color: #fff; padding: 10px 20px;border-radius: 5px; }

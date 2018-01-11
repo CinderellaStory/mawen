@@ -1,0 +1,27 @@
+.content{ overflow: hidden; }
+.container {padding-top: 40px; }
+.banner{ margin-bottom: 20px; border-radius: 10px; background: url(../images/bg-banner2.png)no-repeat center center; width: 800px; height: 100px;}
+.banner span{ color: #fff; font-size: 40px;  line-height: 100px;margin-left: 20px; }
+.banner a{ margin-right: 20px;   margin-top: 28px;border-radius: 5px;background: #fe7300; width: 160px;height: 45px; line-height: 45px; text-align: center;color: #fff; font-size: 18px; }
+
+.follow-list{margin-top: 5px; margin-bottom: 30px; }
+.follow-list a{ float: left; border: 1px solid #e2e6e8;margin-top: 5px; margin-left: 6px;padding: 5px 10px; color: #b2b2b1;}
+.follow-list a:hover{color: #fe7300; }
+.list ul li{ margin-top: 30px; }
+.list ul li p{ display: block; }
+.title{ text-align: left; border-bottom: 1px solid #e7eaeb;padding-bottom: 20px;}
+.title span{ font-size: 16px; color: #14191e; }
+.title i{ font-size: 14px;    font-style: normal; color: #9a9ea1;}
+.title i:hover{ color: red; }
+.title span i{ font-size: 24px; }
+.title span i:hover{ color: red; }
+.name{ color: #000; font-weight: bold; text-align: left; margin-left: 10px; }
+
+.aside{ width: 340px;padding-top: 40px;}
+.follow{ width: 50px;height: 25px; line-height: 25px; text-align: center; color: #fe7300; border: 1px solid #e2e6e8; display: inline-block; }
+.item p{ color: #b7c5d6; margin-left: 10px;}
+
+.issue-title{ margin-left: 10px; }
+.issue-title h3{ color: #2d96df;    margin-top: 5px; text-align: left; }
+.issue-title .item{ margin-top: 10px; }
+.item-list a{ background: #e1ecf4; padding: 6px 10px; color: #2d96df;display: inline-block;}

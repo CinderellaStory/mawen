@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>码问-注册</title>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="static/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_449875_41r1mx3jrpyqr529.css" type="text/css"/>
+	</head>
+	<body>
+		<div class="warp">
+			<div class="logo w"><a href="index.html"><img src="images/logo.png" width="120px"></a></div>
+			<div class="box register w">
+				<div class="sign mb20">
+					<div class="login-text fl">注册</div>
+					<div class="fr register-text">已有账户？<a href="login.html">登录</a></div>
+				</div>
+				<div class="container">
+					<form action="" method="post">
+						<div class="phone mb20">
+							<input type="text" name="" onfocus="setStyle(this.id)" id="fname" value="" placeholder="请输入手机号码" />
+							<span id="notice">请输入11位数</span>
+						</div>
+						<div class="nickname mb20">
+							<input type="text" name="" id="" value="" placeholder="请输入昵称" />
+						</div>
+						<div class="sex mb20 overflow">
+							<div class="female fl">
+					            <label for="female">女</label>
+					            <input type="radio" name="sex" id="female">
+					        </div>
+					        <div class="male fl">
+					            <label for="male">男</label>
+					            <input type="radio" name="sex" id="male">
+					        </div>
+						</div>
+						<div class="psd mb20">
+							<input type="password" name="" id="" value="" placeholder="请输入密码" />
+						</div>
+						<div class="againpwd mb20">
+							<input type="password" name="" id="" value="" placeholder="请确认新密码">
+						</div>
+						<div class="identify mb20">
+							<input type="text" name="" id="" value="" placeholder="短信验证码" />
+							<a class="sentcode" href="javascript:void(0);">发送验证码</a>
+						</div>
+						<div class="agree fl mb20">
+							<input type="checkbox" name="remember" id="remember" value=""  class="vertical"/>
+							<label for="remember">已阅读并同意</label><a href="">使用条款</a></div>
+						<div class="mb20">
+							<input type="button" name="" id="" value="注册" class="cursor btn register-btn" />
+						</div>
+						<h6 class="mb20"><i></i><span>社交帐号注册</span><i></i></h6>
+						<div class="more-login">
+							<ul>
+								<li><a href="" class="weibo"><i class="iconfont icon-weibo1"></i></a></li>
+								<li><a href="" class="weixin"><i class="iconfont icon-weixin1"></i></a></li>
+								<li><a href="" class="qq"><i class="iconfont icon-QQ"></i></a></li>
+								<li><a href="" class="other"><i class="iconfont icon-iconqita"></i></a></li>
+							</ul>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		function setStyle(x)
+		{
+			var a=document.getElementById("notice"); 
+			document.getElementById(x).style.background="yellow";
+			a.style.display="block";
+		}
+	</script>
+</html>
